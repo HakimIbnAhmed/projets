@@ -1,0 +1,34 @@
+h1
+{
+	text-align: center;
+	margin-top: 180px;
+	font-family: "Protos";
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url(Montserrat-Regular.ttf);
+}
+@font-face {
+	font-family: "Protos";
+	src: url(Protos.otf);
+}
+body
+{
+	font-family: comic sans ms;
+}
+p
+{
+	text-align: justify;
+	display: flex;
+	justify-content: center;
+	margin: 40px 180px 180px 40px;
+	
+}
+.fondqui
+{
+	border-bottom-right-radius: 250px;
+	justify-content: center;
+	text-align: center;
+	height: 450px;
+	width: 100%;
+}

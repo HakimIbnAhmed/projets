@@ -1,0 +1,182 @@
+body
+{
+	background-color: #FFFFFF;
+	font-family: comic sans ms, Trebuchet ms;
+}
+ul
+{
+	list-style-type: none;
+}
+header
+{
+	display: flex;
+	width: 100%;
+	background: linear-gradient(#1D7BB3,#FFFFFF);
+	background: linear-gradient(to left #FFFFFF, #1D7BB3);
+}
+.menu
+{
+	display: flex;
+	text-decoration: none;
+	justify-content: space-around;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 35px;
+	width: 75%;
+	font-size: 1.4em;
+	font-family: 'Montserrat', sans-serif;
+	list-style-type: none;
+}
+nav a
+{
+	text-decoration: none;
+	color: black;
+}
+.menu a:hover{
+	color: #00ff15;
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url(Montserrat-Regular.ttf);
+}
+@font-face {
+	font-family: "Protos";
+	src: url(Protos.otf);
+}
+.titre
+{
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	font-family: 'Protos', comic sans ms, Trebuchet ms;
+	font-size: 2.7em;
+	color: #1D7BB3;
+	letter-spacing: 16px;
+}
+.soustitre
+{
+	text-align: center;
+	width: 100%;
+	margin-left: 20px;
+	margin-top: 0px;
+	font-size: 1.7em;
+	font-family: "Montserrat";
+}
+.reseaux
+{
+	width: 100%;
+	height: 500px;
+	border-bottom-right-radius: 200px;
+}
+footer
+{
+	background: linear-gradient(#FFFFFF,#1D7BB3);
+	text-align: center;
+	margin-top: 300px;
+	padding-bottom: 40px;
+	padding-top: 40px;
+
+}
+section article p
+{
+	width: 60%;
+	text-align: justify; 
+}
+.facebook
+{
+	border-radius: 50%;
+}
+.facebook:hover{
+	animation-name: babal;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+@keyframes babal{
+	0%{
+		border-radius: 35%;
+		height: 80px;
+		width: 80px;
+	}
+	50%{
+		border-radius: 22%;
+		height: 85px;
+		width: 85px;
+	}
+	100%{
+		border-radius: 15%;
+		height: 90px;
+		width: 90px;
+	}
+}
+.smartphone
+{
+	float: right;
+	position: relative;
+}
+article
+{
+	margin: 50px;
+	padding: 60px;
+}
+article ::before {
+	content: "";
+}
+article ::after {
+	content: "";
+}
+.appweb
+{
+	float: left;
+	margin-top: 150px;
+}
+.appliweb
+{
+	text-align: justify;
+	margin-left: 450px;
+	margin-top: 50px;
+}
+.appliwebtitle
+{
+	position: relative;
+	margin-left: 470px;
+}
+.mobileapp
+{
+	float: right;
+}
+section aside
+{
+	width: 80%;
+	text-align: center;
+	margin-left: 150px;
+}
+
+.faceb
+{
+	margin-top: 150px;
+}
+.insta
+{
+	margin-top: 150px;
+}
+.twitter
+{
+	margin-top: 150px;
+}
+.devis
+{
+	text-transform: uppercase;
+	text-align: center;
+	justify-content: center;
+	font-size: 26px;
+	font-family: 'Montserrat';
+	border-radius: 18px;
+	padding: 25px;
+	background-color: #1D7BB3;
+	color: #00ff15;
+	letter-spacing: 8px;
+	margin-left: 360px;
+}
